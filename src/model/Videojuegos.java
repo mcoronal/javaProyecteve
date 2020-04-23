@@ -12,7 +12,6 @@ public class Videojuegos {
 	private static int contador = 0;
 	private int id_juego;
 	private String nombre;
-
 	private String plataforma;
 
 	public Videojuegos() {
