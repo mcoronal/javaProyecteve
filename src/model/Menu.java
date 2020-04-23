@@ -3,7 +3,7 @@ package model;
 /**
  * 
  * @author Manuel C.
- * @version 1.0 everis
+ * @version 1.0
  * 
  * 
  */
