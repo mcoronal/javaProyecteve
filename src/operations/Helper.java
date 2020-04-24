@@ -2,7 +2,6 @@ package operations;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import model.Menu;
 import model.Plataformas;
 import model.Videojuegos;
 
@@ -25,7 +24,7 @@ public class Helper {
 		int opcion = 0;
 
 		do {
-			Menu.MenuUnico();
+			MenuUnico();
 
 			opcion = Excepciones.ControlMenu();
 			switch (opcion) {
@@ -47,6 +46,14 @@ public class Helper {
 			}
 			System.out.println("Saliendo del Programa..\nGuardando en la base de datos...\n\nGuardado & Log out.");
 		} while (opcion != 0);
+	}
+	
+	/**
+	 * Menu de la aplicacion
+	 */
+	public static void MenuUnico() {
+		System.out.println(
+				"========================================\n========Gestión de Videojuegos========\n========================================\n1. Añadir un videojuego. \n2. Listar videojuegos. \n3. Borrar un videojuego.\n0. Salir de la aplicación.\n\n========================================\nIntroduzca la opción elegida: ");
 	}
 
 	/**
@@ -146,5 +153,9 @@ public class Helper {
 
 		}
 	}
+	
 
-}
+	}
+
+
+
