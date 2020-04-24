@@ -46,7 +46,8 @@ class HelperTest {
 
 	@Test
 	void testResta() {
-		fail("Not yet implemented");
+		Helper.Resta(2, 3);
+		assertEquals(5, Helper.Resta(10, 5));
 	}
 
 }

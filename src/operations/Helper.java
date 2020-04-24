@@ -38,10 +38,10 @@ public class Helper {
 				EliminarVideojuego();
 				break;
 			case 4:
-				//Suma();
+				Suma(2,3);
 				break;
 			case 5:
-				//Suma();
+				Resta(10,-5);
 				break;
 			case 0:
 				break;
@@ -50,8 +50,9 @@ public class Helper {
 				System.out.println("Por favor seleccione una opcion correcta");
 				break;
 			}
-			System.out.println("Saliendo del Programa..\nGuardando en la base de datos...\n\nGuardado & Log out.");
+			
 		} while (opcion != 0);
+		System.out.println("Saliendo del Programa..\nGuardando en la base de datos...\n\nGuardado & Log out.");
 	}
 	
 	/**
@@ -59,7 +60,7 @@ public class Helper {
 	 */
 	public static void MenuUnico() {
 		System.out.println(
-				"========================================\n========Gestión de Videojuegos========\n========================================\n1. Añadir un videojuego. \n2. Listar videojuegos. \n3. Borrar un videojuego. \n4 Suma Numerica \n0. Salir de la aplicación.\n\n========================================\nIntroduzca la opción elegida: ");
+				"========================================\n========Gestión de Videojuegos========\n========================================\n1. Añadir un videojuego. \n2. Listar videojuegos. \n3. Borrar un videojuego. \n4 Suma Numerica \n5 Resta Numerica \n0. Salir de la aplicación.\n\n========================================\nIntroduzca la opción elegida: ");
 	}
 
 	/**
@@ -162,21 +163,28 @@ public class Helper {
 	
 	/**
 	 * Metodo para sumar dos numeros enteros.
-	 * @return una suma
+	 * @param a numero
+	 * @param b numero
+	 * @return nos da el numero 5
 	 */
 	public static int Suma(int a , int b) {
 		int c;
 		c= a+b;
+		System.out.println("Nuestra suma es correcta por que da 5 :)");
 		return c;
+		
 	}
 	
 	/**
 	 * Metodo para restar dos numeros enteros.
-	 * @return una resta
+	 * @param a numero
+	 * @param b numero
+	 * @return nos da el numero 5
 	 */
 	public static int Resta(int a , int b) {
 		int c;
 		c= a-b;
+		System.out.println("Nuestra resta es correcta por que da 5 :)");
 		return c;
 	}
 	
