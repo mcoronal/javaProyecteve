@@ -40,13 +40,13 @@ class HelperTest {
 
 	@Test
 	void testSuma() {
-		Helper.Suma(2, 3);
+		Helper.Suma(3, 2);
 		assertEquals(5, Helper.Suma(2, 3));
 	}
 
 	@Test
 	void testResta() {
-		Helper.Resta(2, 3);
+		Helper.Resta(10, 5);
 		assertEquals(5, Helper.Resta(10, 5));
 	}
 
