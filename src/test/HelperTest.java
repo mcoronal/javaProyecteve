@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import operations.Helper;
+
 class HelperTest {
 
 	@Test
@@ -33,6 +35,17 @@ class HelperTest {
 
 	@Test
 	void testValidacionPlataformas() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSuma() {
+		Helper.Suma(2, 3);
+		assertEquals(5, Helper.Suma(2, 3));
+	}
+
+	@Test
+	void testResta() {
 		fail("Not yet implemented");
 	}
 

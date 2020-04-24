@@ -37,6 +37,12 @@ public class Helper {
 			case 3:
 				EliminarVideojuego();
 				break;
+			case 4:
+				//Suma();
+				break;
+			case 5:
+				//Suma();
+				break;
 			case 0:
 				break;
 				
@@ -53,7 +59,7 @@ public class Helper {
 	 */
 	public static void MenuUnico() {
 		System.out.println(
-				"========================================\n========Gestión de Videojuegos========\n========================================\n1. Añadir un videojuego. \n2. Listar videojuegos. \n3. Borrar un videojuego.\n0. Salir de la aplicación.\n\n========================================\nIntroduzca la opción elegida: ");
+				"========================================\n========Gestión de Videojuegos========\n========================================\n1. Añadir un videojuego. \n2. Listar videojuegos. \n3. Borrar un videojuego. \n4 Suma Numerica \n0. Salir de la aplicación.\n\n========================================\nIntroduzca la opción elegida: ");
 	}
 
 	/**
@@ -154,8 +160,27 @@ public class Helper {
 		}
 	}
 	
-
+	/**
+	 * Metodo para sumar dos numeros enteros.
+	 * @return una suma
+	 */
+	public static int Suma(int a , int b) {
+		int c;
+		c= a+b;
+		return c;
 	}
+	
+	/**
+	 * Metodo para restar dos numeros enteros.
+	 * @return una resta
+	 */
+	public static int Resta(int a , int b) {
+		int c;
+		c= a-b;
+		return c;
+	}
+	
+}
 
 
 
